@@ -1,7 +1,12 @@
 git init
 git clone
 git add .
-git commit -m asd
-git checkout 
-git merge
-git stash
+git commit -m <asd>
+git checkout [-b branchname]
+git merge alias [branchname]
+git stash/pop
+git config --global --list
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
